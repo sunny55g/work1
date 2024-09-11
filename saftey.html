@@ -1,0 +1,1138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>WIKI | 2024</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+     
+        <link rel="shortcut icon" href="https://static.igem.wiki/common/icons/favicons/igem-2022.svg"/>
+        <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="lib/all.css"/>
+        <link href="lib/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+
+       <!--https://codepen.io/b1tn3r/pen/erLqbQ--> 
+       <style>
+        .acc-main {
+    padding: 40px 0px 80px;
+    color: #000;
+  }
+  .container {
+   /* max-width: 790px;*/
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+  }
+  .pockets-main h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #111;
+    margin: 0 0px 35px;
+  }
+  .intro-cont h3{
+    font-size: 35px;
+    font-weight: 600;
+    color: #111;
+    margin: 50px 0;
+  }
+  .kind h2{
+    text-align:center;
+    font-size: 45px;
+    font-weight: 600;
+    color: #111;
+    margin: 50px 0 30px;
+  }
+  /*accordion*/
+  .accordion-main{
+    margin-bottom:36px;
+  }
+  .accordion-main:last-child .accordion_body{
+    padding-bottom: 0;
+  }
+  .accordion_head {
+    background-color: #c4d7b2;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border:1px solid 29705a;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+  }
+  .accordion_body {
+    background: transparent;
+    font-size: 18px;
+    text-align: center;
+   
+  }
+  .accordion_body img{
+    width: 100%;
+    max-width: 230px;
+    margin-bottom: 30px;
+  }
+  .accordion_body p {
+    margin: 0px;
+    color: #000000;
+  }
+  .accordion_body h3,
+  .div-bott h3{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 15px 0;
+    color: #1e352e;
+  }
+  .div-bott h3{
+  font-size: 35px;
+  }
+  .div-bott{
+  text-align:center;
+  }
+  .div-bott p{
+  font-size:24px;
+  }
+  .plusminus {
+    float: right;
+    font-size: 36px;
+    margin-top: -9px;
+  }
+  .coll-back{
+    background-color: #fff;
+    color: #111;
+    border:1px solid #111;
+  }
+  .hr-clc{
+    height: 2px;
+    background: #111;
+    margin-top: 22px;
+    width: 17px;
+    padding: 0;
+    border: 0;
+    margin-left: -20px;
+  }
+
+  /*media queries*/
+  @media (min-width:992px) and (max-width:1100px){
+    .pockets-main p {
+      font-size: 22px;
+      width: 684px;
+      margin:0 auto;
+      margin-bottom: 20px !important;
+    }
+    .accordion_body {
+      padding: 35px 40px 5px;
+    }
+    .accordion_body img {
+      max-width: 205px;
+      margin-bottom: 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px){
+    .pockets-main {
+      padding: 30px 15px;
+    }
+    .pockets-main h1 {
+      font-size: 45px;
+      margin: 0 0px 20px;
+    }
+    .pockets-main p {
+      font-size: 20px !important;
+      margin-bottom: 20px !important;
+      width: 600px;
+      margin: 0 auto;
+    }
+    .intro-cont h3,
+    .div-bott h3{
+      font-size: 30px;
+      margin: 35px 0;
+    }
+    .kind h2 {
+      font-size: 30px;
+      margin: 35px 0 30px;
+    }
+    .accordion_head {
+      font-size: 20px;
+      padding: 11px 18px;
+    }
+    .plusminus {
+      font-size: 27px;
+      margin-top: -5px;
+    }
+    .accordion-main {
+      margin-bottom: 24px;
+    }
+    .hr-clc {
+      margin-top: 16px;
+      width: 15px;
+      margin-left: -15px;
+    }
+    .accordion_body {
+      font-size: 18px;
+      padding: 30px 40px 5px;
+    }
+    .accordion_body img {
+      width: 100%;
+      max-width: 185px;
+      margin-bottom: 20px;
+    }
+    .accordion_body h3 {
+      font-size: 24px;
+    }
+  }
+
+  @media (min-width: 576px) and (max-width: 767px){
+    .pockets-main {
+      padding: 35px 15px;
+    }
+    .pockets-main h1 {
+      font-size: 40px;
+      margin: 0 0px 30px;
+    }
+    .pockets-main p {
+      font-size: 18px !important;
+      margin-bottom: 20px !important;
+      width: 400px;
+      margin: 0 auto;
+    }
+    .intro-cont h3,
+    .div-bott h3{
+      font-size: 26px;
+      width: 400px;
+      margin: 30px auto;
+      line-height: 1.2 !important;
+    }
+    .div-bott h3{
+    width:unset;
+    }
+    .kind h2 {
+      font-size: 26px;
+      margin: 30px 0 30px;
+    }
+    .accordion_head {
+      font-size: 20px;
+      padding: 10px 15px;
+    }
+    .accordion-main {
+      margin-bottom: 25px;
+    }
+    .plusminus {
+      font-size: 30px;
+      margin-top: -5px;
+    }
+    .accordion_body {
+      padding: 30px 25px 5px;
+    }
+    .accordion_body img {
+      max-width: 170px;
+      margin-bottom: 20px;
+    }
+    .hr-clc {
+      margin-top: 17px;
+      width: 16px;
+    }
+    .accordion_body h3 {
+      font-size: 22px;
+      margin: 15px 0;
+    }
+  }
+  @media (max-width:575px){
+    .pockets-main{
+      padding:15px 0px;
+    }
+    .pockets-main h1 {
+      font-size: 30px;
+      margin: 0 0px 15px;
+    }
+    .pockets-main p {
+      font-size: 16px !important;
+      margin-bottom: 15px !important;
+    }
+    .intro-cont h3,
+    .kind h2,
+    .div-bott h3{
+      margin: 30px 0px;
+      line-height: normal !important;
+      font-size:24px;
+    }
+    .accordion_head {
+      font-size: 18px;
+      padding: 8px 12px
+    }
+    .plusminus {
+      font-size: 27px;
+      margin-top: -7px;
+    }
+    .accordion-main {
+      margin-bottom: 22px;
+    }
+    .accordion_body {
+      font-size: 18px;
+      padding: 20px 20px 5px;
+    }
+    .accordion_body img {
+      max-width: 150px;
+      margin-bottom: 20px;
+    }
+    .accordion_body h3 {
+      font-size: 18px;
+      margin: 10px 0;
+      line-height: normal;
+    }
+    .hr-clc {
+      height: 2px;
+      margin-top: 16px;
+      width: 15px;
+      margin-left: -15px;
+    }
+  }
+
+  .video {
+    overflow: hidden;
+    position: relative;
+    /* (videoHeight / videoWidth) * 100 => (720 / 1280) * 100 */
+    padding-bottom: 56.25%;
+    
+}
+.video__item {
+        z-index: -10;
+        
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    #slider {
+  position: relative;
+  width: 1078px;
+    height:500px;
+  margin: 100px auto;
+  overflow: hidden;
+
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+#slider ul {
+  position: relative;
+  list-style: none;
+  height: 100%;
+  width: 10000%;
+  padding: 0;
+  margin: 0;
+
+  transition: all 750ms ease;
+  left: 0;
+}
+#slider ul li {
+  position: relative;
+  height: 100%;
+
+  float: left;
+}
+#slider ul li img{
+  width: 1078px;
+    height: 500px;
+
+}
+
+#slider #prev, #slider #next {
+  width: 40px;
+  line-height: 40px;
+
+  font-size: 1.5rem;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: black;
+	background: #f9f7fb;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 150ms ease;
+}
+#slider #prev:hover, #slider #next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 0;
+	color: white;
+}
+#slider #prev {
+
+}
+#slider #next {
+  right: 0px;
+}
+
+/* Style the content inside accordion body to also be full width */
+.accordion_body > .rounded-4.textcolor-1.p-3 {
+    width: 100%;
+    box-sizing: border-box;
+}
+</style>
+       </style>
+        </head>
+
+        <body>
+
+            <!-- Spinner Start -->
+            <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+                <div class="spinner-grow text-primary" role="status"></div>
+            </div>
+            <!-- Spinner End -->
+
+              <!-- Navbar start -->
+        <div class="container-fluid nav-bar" id="navbar">
+            <div class="container">
+                <nav class="navbar navbar-light navbar-expand-lg">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="img/noftbg.svg" width="80px" height="80px" alt="">
+                    </a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="home.html" class="nav-item nav-link active">HOME</a>
+                           
+                                                       
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PROJECTS</a>
+                                <div class="dropdown-menu bg-light">
+                                    <a href="description.html" class="dropdown-item">Description</a>
+                                    <a href="design.html" class="dropdown-item">Design</a>
+                                    <a href="saftey.html" class="dropdown-item">Safety</a>
+                                                                    
+                                </div>
+                            </div>
+                           
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">WET LABS</a>
+                                <div class="dropdown-menu bg-light">
+                                    <a href="experiments.html" class="dropdown-item">Experiments</a>
+                                    <a href="notebook.html" class="dropdown-item">Notebook</a>
+                                    <a href="engineering.html" class="dropdown-item">Engineering</a>
+                                    <a href="results.html" class="dropdown-item">Results</a>    
+                                    <a href="parts.html" class="dropdown-item">Parts</a>                             
+                                </div>
+                            </div>
+
+                            <a href="modeling.html" class="nav-item nav-link">MODELING</a>
+
+                            <a href="contribution.html" class="nav-item nav-link">CONTRIBUTION</a>
+
+                            <div class="nav-item dropdown">
+                              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">HUMAN PRACTICES</a>
+                              <div class="dropdown-menu bg-light">
+                                  <a href="humanpactice.html" class="dropdown-item">iHP</a>
+                                  <a href="education.html" class="dropdown-item">Education</a>
+                                  <a href="inclusivity.html" class="dropdown-item">Inclusivity</a>
+                                                                                                                                       
+                              </div>
+                          </div>
+
+                          <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">IMPLEMENTATION</a>
+                            <div class="dropdown-menu bg-light">
+                                <a href="pi.html" class="dropdown-item">PI</a>
+                                <a href="enterprnaurship.html" class="dropdown-item">Enterprnaurship</a>
+                                <a href="sustainabilty.html" class="dropdown-item">Sustainabilty</a>
+                    
+                            </div>
+                        </div>
+
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">TEAM</a>
+                                <div class="dropdown-menu bg-light">
+                                    <a href="members.html" class="dropdown-item">Members</a>
+                                    <a href="attributions.html" class="dropdown-item">Attributions</a>    
+                                    <a href="collaboration.html" class="dropdown-item">Collaboration</a>
+                                    <a href="sponsors.html" class="dropdown-item">Sponsors</a>                          
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                       </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <section><br><br>
+
+          <center><h1 style="color:white;">Safety</h1></center>
+          <div class='air air1'></div>
+          <div class='air air2'></div>
+          <div class='air air3'></div>
+        </section>
+
+<article class="bg-hero py-5 mb-4 container-lg">
+
+  <div class="row mt-12">
+    <div class="col"> 
+      <!-- overview -->
+      <div class=" rounded-4 textcolor-1 p-3" >  
+        <center><h1 class="heading mx-5 mt-3">OVERVIEW</h1></center>
+        <hr class="mx-5">
+        <p class="text-start mx-5">
+          The fashion and cosmetics industries are highly consumer-centric, impacting nearly everyone worldwide. These industries consume vast quantities of raw materials and can significantly harm the environment. In the face of escalating plastic pollution and the pressing need for environmental conservation, our project, <strong>PETAL</strong> , presents a novel solution by seamlessly integrating plastic waste management with the preservation of Indigenous sandalwood trees through the power of synthetic biology. Here, we will employ engineered microorganism to uptake plastic (PET) monomers and then utilize them to produce sandalwood oil. 
+
+        </p>
+      </div>
+    </div>
+  </div>
+
+<div class="space-50vh"></div>
+  <div class="row mt-12">
+    <div class="col"> 
+      <!-- overview -->
+      <div class=" rounded-4 textcolor-1 p-3" >  
+        <center><h1 class="heading mx-5 mt-3">CLASSIFICATON OF MICROORGANISM</h1></center>
+        <hr class="mx-5">
+        <p class="text-start mx-5">
+          The fashion and cosmetics industries are highly consumer-centric, impacting nearly everyone worldwide. These industries consume vast quantities of raw materials and can significantly harm the environment. In the face of escalating plastic pollution and the pressing need for environmental conservation, our project, <strong>PETAL</strong> , presents a novel solution by seamlessly integrating plastic waste management with the preservation of Indigenous sandalwood trees through the power of synthetic biology. Here, we will employ engineered microorganism to uptake plastic (PET) monomers and then utilize them to produce sandalwood oil. 
+
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="space-50vh"></div>
+<div class="row">
+  <div class="col-md-4">
+    <div class="col"> 
+        <div class="accordion_container">
+            <div class="accordion-main">
+              <div class="accordion_head"> LABORATORY SAFETY<span class="plusminus">+</span></div>
+              <div class="accordion_body" id="a1" style="display: none;">
+                <div class=" rounded-4 textcolor-1 p-3" style="width: 313%;">  
+                 
+                  <p class="text-start mx-5">
+                    As researchers, maintaining proper safety conduct within the lab is a top priority. As per the <b> Guidelines for the Establishment of Containment Facilities: Biosafety Level 2 (BSL-2) & 3 (BSL-3) and Certification of BSL-3 facility, 2020,</b> our laboratory falls under Biosafety Level-II. For more information, please visit: https://ibkp.dbtindia.gov.in/ <br>
+Before starting our project, we were given Biosafety level-II training by our laboratory technician, Mrs. Nithya Rani, wherein she provided extensive courses on safe work in the laboratory. We were given prior training on the proper and safe use of autoclave sterilisers, bio-safety cabinets and the usage of ethidium bromide and UV for visualising electrophoresis results. 
+
+                  </p>
+                </div>
+                <div class=" rounded-4 textcolor-1 p-3" style="width: 313%;">  
+                 
+                  <p class="text-start mx-5">
+                   
+                     <h5 style="text-align: left;" class="text-start mx-5">Laboratory safety equipment </h5>
+                        <ol style="text-align: left; " class="text-start mx-5">
+                              <li>We use waterproof and fire-retardant workbenches that can withstand heat and chemicals. </li> 
+                              <li>The labs are equipped with Biological safety cabinets level-II .</li>   
+                              <li>Autoclave sterilisers are used for decontamination procedures .</li>
+                              <li>We are required to know the location of the shower and eyewash .</li>
+                              <li>Emergency equipment, such as fire-fighting equipment and first aid equipment, are located within the laboratory premises, and their location is known </li>
+                              <li>Entry and exit registration is well-maintained. </li>
+                              <li>All chemicals and reagents are appropriately labelled and stored.</li>
+                         </ol>
+                  </p>
+                </div>
+                
+              
+               
+                <div class=" rounded-4 textcolor-1 p-3" style="width: 313%;"> 
+                  <p class="text-start mx-5"> 
+                    <h5 style="text-align: left;" class="text-start mx-5">Disposal system </h5>
+                    <ul style="text-align: left;" class="text-start mx-5">Standard decontamination and disposal protocols are followed according to Biomedical Waste Management Rules. The following procedures are strictly followed in the lab:</ul>
+                     <li style="text-align: left;" class="text-start mx-5">Disinfectants like ethanol are used to clean the lab desks, biosafety cabinets, and laboratory equipment before and after each experiment.</li>
+                     <li style="text-align: left;" class="text-start mx-5">Proper waste disposal methods are followed where lab waste is disposed of into their designated bins.</li>
+                        <ol style="text-align: left; " class="text-start mx-5">
+                              <li><b> Blue Bucket </b>- General waste</li> 
+                              <li><b> Yellow Bucket</b>: Cytotoxic waste, Agarose gel (containing EtBr), Acrylamide gel (PAGE), Pathological Waste, Solid media, Body fluid/cytotoxic contaminated paper, cotton, swabs, and cloth, Tissue, and wipes contaminated with cytotoxic waste, Face masks</li>   
+                              <li><b> Red Bucket</b>: Gloves, tips and tubes, Syringe without needles, Culture plates without media, Pipettes, and Plasticware. Serological pipette without cover  </li>
+                              <li><b>Transparent Bucket</b> - Needles, syringes with fixed needles, blades, scalpels, forceps, burning scissors </li>                             
+                         </ol>
+                         <li style="text-align: left;" class="text-start mx-5">Workbenches inside biosafety cabinets are exposed to UV radiation for up to 15 minutes before and after the completion of an experiment.</li>
+                         <li style="text-align: left;" class="text-start mx-5">Post-experiment, the media containing the mutants will be discarded according to biosafety guidelines.</li>
+                         <li style="text-align: left;" class="text-start mx-5">The plates containing the mutants will be autoclaved at 121 °C for 15 minutes.</li>
+                         <li style="text-align: left;" class="text-start mx-5">Our hands are regularly washed during the experiment.</li>
+                  </p>
+                </div>
+
+              </div>
+            </div>        
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4" >
+    <div class="col"> 
+    
+        <div class="accordion_container">
+            <div class="accordion-main">
+              <div class="accordion_head"> DESIGN SAFETY<span class="plusminus">+</span></div>
+              <div class="accordion_body" id="a1" style="display: block;width: 313%;margin-left: -379px;">
+                <div class=" rounded-4 textcolor-1 p-3" >  
+                 
+                  <p class="text-start mx-5">
+                    Our project will be engineering Pseudomonas putida TA7-EG  to synthesise sandalwood oil components, santalol and santalene. To achieve this, we’ve incorporated several genes obtained from the Santalum album. None of these genes are known to have any virulent factors.
+                  </p>
+                </div>  </div>
+            </div> 
+          </div>
+    </div>
+  </div>
+ 
+  <div class="col-md-4" >
+    <div class="col"> 
+    
+        <div class="accordion_container">
+            <div class="accordion-main">
+              <div class="accordion_head"> Ethics and Approval<span class="plusminus">+</span></div>
+              <div class="accordion_body" id="a1" style="display: block;width: 313%;margin-left: -760px;">
+                <div class=" rounded-4 textcolor-1 p-3" >  
+                 
+                  <p class="text-start mx-5">
+                    As part of our project, we conducted several interviews, surveys and competitions to spread awareness and gain more insight regarding the project. As we had to interact with various groups of people, we had to ensure that all relevant laws and regulations were strictly followed. Permission from legal authorities was acquired before conducting any activities involving the public.
+                  </p> <br>
+                   <h4 style="text-align: left;"  class="text-start mx-5">PROJECT APPROVAL</h4>
+                 <p class="text-start mx-5">  According to the Regulations and Guidelines on Biosafety of Recombinant DNA Research & Biocontainment, our experiments fall under Category II and hence, prior authorisation from the Institutional Biosafety Committee (IBSC) was given before the commencement of the experiments. 
+                </p> <br>
+                <h4 style="text-align: left;"  class="text-start mx-5">SURVEY</h4>
+                <p class="text-start mx-5">  During webinars and interviews, recordings and images were taken for which the participants gave prior consent. The participants gave permission to use the images for our wiki.
+               </p> <br>
+               <h4 style="text-align: left;"  class="text-start mx-5">WEBINARS</h4>
+               <p class="text-start mx-5">  Multiple surveys were released by the Human Practices, Outreach and Proposed Implementation sub-teams. Prior consent was sought from the participants at the beginning of the forms, and they were clearly informed that all data collected would only be used for the purpose of the research.
+              </p> <br>
+              <h4 style="text-align: left;"  class="text-start mx-5">PROPOSED IMPLEMENTATION SAFETY</h4>
+              <p class="text-start mx-5">  Since the beginning of PETal we ensured that we followed safe practices in all aspects of our project by identifying all the potential risks we may face in the future, from synthesising our product within the laboratory to manufacturing it in bioreactors for making consumer-based products. We talked to relevant producers and start-up companies and studied relevant literature regarding the same. More information regarding future safety measures is explained in the Proposed Implementation page.  
+              </p> 
+                </div>
+              
+              </div>
+            </div> 
+          </div>
+    </div>
+  </div>
+ 
+
+</div>
+
+
+
+
+
+
+
+
+  <div class="row">
+    <div class="col-3 d-block container-sidenav ">
+        <div class="row mt-4 sidenav fixed-position py-5 px-2  rounded-4">
+          <h2 class="text-center">Contents</h2>
+          <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#plant-terpenoids-and-applications">Plant terpenoids and applications</a></li>
+            <li><a href="#sandalwood-depletion-and-its-causes">Sandalwood depletion and its causes</a></li>
+            <li><a href="#plastic-pollution">Plastic pollution</a></li>
+            <li><a href="#our-solution">Our Solution: PETAL</a></li>
+            <li><a href="#impact">Impact</a></li>
+            <li><a href="#references">References</a></li>
+          </ul>
+          
+        </div>
+      
+      </div>
+    <div class=" col-sm-12 col-lg-9">
+      <!-- over view -->
+      <div class="row mt-4" id="overview">
+        <div class="col"> 
+          <!-- overview -->
+          <div class=" rounded-4 textcolor-1 p-3" >  
+            <center><h1 class="heading mx-5 mt-3">Overview</h1></center>
+            <hr class="mx-5">
+            <p class="text-start mx-5">
+              The fashion and cosmetics industries are highly consumer-centric, impacting nearly everyone worldwide. These industries consume vast quantities of raw materials and can significantly harm the environment. In the face of escalating plastic pollution and the pressing need for environmental conservation, our project, <strong>PETAL</strong> , presents a novel solution by seamlessly integrating plastic waste management with the preservation of Indigenous sandalwood trees through the power of synthetic biology. Here, we will employ engineered microorganism to uptake plastic (PET) monomers and then utilize them to produce sandalwood oil. 
+
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col"> 
+          
+        </div>
+      </div>
+      
+      <div class="row mt-4" id="plant-terpenoids-and-applications">
+        <div class="col"> 
+          <!-- overview -->
+          <div class=" rounded-4 textcolor-1 p-3" >  
+           <center><h1 class="heading mx-5 mt-3">Understanding the Customer and the market</h1></center> 
+            <hr class="mx-5">
+           
+            <div class="accordion_container">
+                <div class="accordion-main">
+                  <div class="accordion_head"> The Customer<span class="plusminus">+</span></div>
+                  <div class="accordion_body" id="a1" style="display: none;">
+                    <div class=" rounded-4 textcolor-1 p-3" >  
+                 
+                      <p class="text-start mx-5">
+                        
+                      </p>
+                    </div> </div>
+                </div>
+                <div class="accordion-main">
+                  <div class="accordion_head">The Market<span class="plusminus">+</span></div>
+                  <div class="accordion_body" style="display: none;">
+                    <div class=" rounded-4 textcolor-1 p-3" >  
+                 
+                      <p class="text-start mx-5">
+                        
+                      </p>
+                    </div> </div>
+                </div>
+
+                <div class="accordion-main">
+                  <div class="accordion_head"> Ideal Customer Profile<span class="plusminus">+</span></div>
+                  <div class="accordion_body" style="display: none;">
+                    <div class=" rounded-4 textcolor-1 p-3" >  
+                 
+                      <p class="text-start mx-5">
+                        
+                      </p>
+                    </div> </div>
+                </div>
+
+                <div class="accordion-main">
+                  <div class="accordion_head">Unique Value Proposition<span class="plusminus">+</span></div>
+                  <div class="accordion_body" style="display: none;">
+                    <div class=" rounded-4 textcolor-1 p-3" >  
+                 
+                      <p class="text-start mx-5">
+                        
+                      </p>
+                    </div></div>
+                </div>
+            
+            </div>
+              
+             
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col"> 
+          <!-- overview -->
+          <div class=" rounded-4 textcolor-1 p-3" >  
+           <center><h1 class="heading mx-5 mt-3">Developmental plans</h1></center> 
+            <hr class="mx-5">
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="row mt-4">
+        <div class="col"> 
+            <div class="acc-main">
+                <div class="container">
+                  <div class="kind">
+                    
+                    <div class="accordion_container">
+                      <div class="accordion-main">
+                        <div class="accordion_head">
+
+                            SWOT Analysis (chart and explanation and plans of tackling them) 
+                            <span class="plusminus">+</span></div>
+                        <div class="accordion_body" id="a1" style="display: none;">
+                          
+                          <div class=" rounded-4 textcolor-1 p-3" >  
+                 
+                            <p class="text-start mx-5">
+                              
+                            </p>
+                          </div>
+                        
+                        </div>
+                      </div>
+                      <div class="accordion-main">
+                        <div class="accordion_head">Competitor analysis (chart only and little written stuff)<span class="plusminus">+</span></div>
+                        <div class="accordion_body" style="display: none;">
+                          <div class=" rounded-4 textcolor-1 p-3" >  
+                 
+                            <p class="text-start mx-5">
+                              
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-main">
+                        <div class="accordion_head">Risk analysis (chart only)<span class="plusminus">+</span></div>
+                        <div class="accordion_body" style="display: none;">
+                         
+                          <div class=" rounded-4 textcolor-1 p-3" >  
+                 
+                            <p class="text-start mx-5">
+                              
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-main">
+                        <div class="accordion_head">Patenting <span class="plusminus">+</span></div>
+                        <div class="accordion_body" style="display: none;">
+                          <div class=" rounded-4 textcolor-1 p-3" >  
+                 
+                            <p class="text-start mx-5">
+                              
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-main">
+                        <div class="accordion_head">Cost analysis<span class="plusminus">+</span></div>
+                        <div class="accordion_body" style="display: none;">
+                          
+                          <div class=" rounded-4 textcolor-1 p-3" >  
+                 
+                            <p class="text-start mx-5">
+                              
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-main">
+                        <div class="accordion_head">Exit Strategy <span class="plusminus">+</span></div>
+                        <div class="accordion_body" style="display: none;">
+                          <div class=" rounded-4 textcolor-1 p-3" >  
+                 
+                            <p class="text-start mx-5">
+                              
+                            </p>
+                          </div>
+                          </div>
+                      </div>
+
+                      <div class="accordion-main">
+                        <div class="accordion_head">Skill and Stakeholder analysis<span class="plusminus">+</span></div>
+                        <div class="accordion_body" style="display: none;">
+                          <div class=" rounded-4 textcolor-1 p-3" >  
+                 
+                            <p class="text-start mx-5">
+                              
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="accordion-main">
+                        <div class="accordion_head">Business model<span class="plusminus">+</span></div>
+                        <div class="accordion_body" style="display: none;">
+                         
+                          <div class=" rounded-4 textcolor-1 p-3" >  
+                 
+                            <p class="text-start mx-5">
+                              
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+</div>
+</div>
+
+<div class="row mt-4">
+    <div class="col"> 
+      <!-- overview -->
+      <div class=" rounded-4 textcolor-1 p-3" >  
+       <center><h1 class="heading mx-5 mt-3">Long-term impact </h1></center> 
+        <hr class="mx-5">
+        <div class="accordion_container">
+            <div class="accordion-main">
+              <div class="accordion_head">
+                De-risking the startup
+                  <span class="plusminus">+</span></div>
+              <div class="accordion_body" id="a1" style="display: none;">
+                <div class=" rounded-4 textcolor-1 p-3" >  
+                 
+                  <p class="text-start mx-5">
+                    
+                  </p>
+                </div></div>
+            </div>
+            <div class="accordion-main">
+              <div class="accordion_head">Go-To-Market Strategy<span class="plusminus">+</span></div>
+              <div class="accordion_body" style="display: none;">
+                <div class=" rounded-4 textcolor-1 p-3" >  
+                 
+                  <p class="text-start mx-5">
+                    
+                  </p>
+                </div> </div>
+            </div>
+
+            <div class="accordion-main">
+              <div class="accordion_head">PETal: A revolution<span class="plusminus">+</span></div>
+              <div class="accordion_body" style="display: none;">
+                <div class=" rounded-4 textcolor-1 p-3" >  
+                 
+                  <p class="text-start mx-5">
+                    
+                  </p>
+                </div> </div>
+            </div>
+            </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-4">
+    <div class="col"> 
+      <!-- overview -->
+      <div class=" rounded-4 textcolor-1 p-3" >  
+       <center><h1 class="heading mx-5 mt-3">Timeline</h1></center> 
+        <hr class="mx-5">
+        <p class="text-start mx-5">
+          
+        </p>
+      </div>
+    </div>
+  </div>
+
+ 
+
+
+      </div>
+    </div>
+  </div>
+  <!-- add stysheet links -->
+  <link rel="stylesheet" href="{{ url_for('static', filename = 'custumanimate.css') }}">
+
+</article>
+
+<footer class="pt-5 ppy-4 mt-5 bg-dark text-white placeholder-wave" style="margin-left: -12px;">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-lg-5 col-xs-12">
+        <h4 class="mb-3 text-center"> <a href="https://2024.igem.wiki/iiser-tvm/" > <img src="images/noftbg.svg" class="mg-fluid img-fluid "  alt="petal" width="15%"> </a></h4>
+        <p class="lead text-center"><strong>Valorizing plastic to sandalwood Oil</strong></p>
+        <!-- <img src="{{ url_for('static', filename = 'images/logo.svg') }}" class="mg-fluid img-fluid" style="width : 25%; height: auto; margin-left: -2%;"  alt="iGEM logo"> -->
+        <!-- <img src="{{ url_for('static', filename = 'images/logo.svg') }}" class="mg-fluid img-fluid" style="width : 60%; height: auto; ; "  alt="iGEM logo"> -->
+        <div class="m-1 p-1"> <!-- social media icons -->
+          <div class="d-flex justify-content-between " style="margin-left: 29%;margin-right: 30%;">
+              <!-- insta will put img -->
+              <a href="https://www.instagram.com/igem_iisertvm/"><img src="{{ url_for('static', filename = 'images/instagram.svg') }}" alt="" class="img-fluid w-75" ></a>
+              <!-- linkedin will put img-->
+              <a href="https://www.linkedin.com/in/igem-iisertvm-aba783242/?originalSubdomain=in"><img src="{{ url_for('static', filename = 'images/linkedin.svg') }}" class="img-fluid w-75"  alt=""></a>
+              <!-- youtube will put img -->
+              <a href="https://www.youtube.com/c/iGEMIISERTVM"><img src="{{ url_for('static', filename = 'images/youtube.svg') }}" alt="" class="img-fluid" style="margin-left: 10%; width: 990px; height: auto  ;margin-bottom: 74%;" ></a>
+              <!-- X will put img -->
+              <a href="https://x.com/igem_iisertvm?t=dMFXqThxLnTuFGm15hDOXQ&s=08"><img src="{{ url_for('static', filename = 'images/twitter.svg') }}" alt="" class="img-fluid w-75" style=" margin-top: 0%;margin-left: 10px;"></a>
+            
+          </div>
+        </div>
+        <p class="text-center" style="margin-right: 3%;">igem@iisertvm.ac.in</p><!--email id-->
+      </div>
+      
+      <div class="col-lg-7 col-xs-12">
+          <div class="owl-carousel owl-theme testimonial-carousel testimonial-carousel-1 mb-4 wow bounceInUp" data-wow-delay="0.1s">
+                  
+                  
+                 
+              <div class="testimonial-item rounded">
+                 
+                  <div class="testimonial-content">
+                     <img src="images/sponsorship/bigtec.svg" alt="">
+                  </div>
+              </div>
+           
+              <div class="testimonial-item rounded">
+                 
+                  <div class="testimonial-content">
+                      <img src="images/sponsorship/cellgenix.svg" alt="">
+                     
+                  </div>
+              </div>
+
+              <div class="testimonial-item rounded">
+                 
+                  <div class="testimonial-content">
+                      <img src="images/sponsorship/genious.svg" alt="">
+                     
+                  </div>
+              </div>
+             
+          </div>
+        
+      </div> 
+    </div>
+    <!-- The following MUST be on every page: license information and link to the repository on gitlab.igem.org -->
+    <div class="row mt-4">
+      <div class="col text-center fs-6">
+        <p class="mb-0"><small>© 2024 - Content on this site is licensed under a <a class="subfoot" href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International license</a>.</small></p>
+          <p><small>The repository used to create this website is available at <a href="https://gitlab.igem.org/2024/iiser-tvm">gitlab.igem.org/2024/iiser-tvm</a>.</small></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+      
+      <!-- JavaScript Libraries -->
+   
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+      
+      <script src="lib/wow/wow.min.js"></script>
+      <script src="lib/easing/easing.min.js"></script>
+      <script src="lib/waypoints/waypoints.min.js"></script>
+      <script src="lib/counterup/counterup.min.js"></script>
+      <script src="lib/lightbox/js/lightbox.min.js"></script>
+      <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+      <!-- Template Javascript -->
+      <script src="js/main.js"></script>
+      <script>
+          $(document).ready(function() {
+    //toggle the component with class accordion_body
+    $(".accordion_head").click(function() {
+      $(this).removeClass('coll-back');
+      if ($('.accordion_body').is(':visible')) {
+        $(".accordion_body").slideUp(300);
+        $(".plusminus").text('+');
+        $(this).removeClass('coll-back');
+        $('.rmv-cls').removeClass('coll-back');
+      }
+
+      if($(this).next(".accordion_body").is(':visible')) {
+        $(this).next(".accordion_body").slideUp(300);
+        $(this).children(".plusminus").text('+');
+        $(this).removeClass('coll-back');
+      }else {
+        $(this).next(".accordion_body").slideDown(300);
+        $(this).children(".plusminus").text('');
+        $(this).children(".plusminus").append('<hr class="hr-clc">');
+        $(this).toggleClass('coll-back');
+        $(this).addClass('rmv-cls');
+      }
+    });
+  });
+
+
+      </script>
+      <script>
+    var responsiveSlider = function() {
+
+var slider = document.getElementById("slider");
+var sliderWidth = slider.offsetWidth;
+var slideList = document.getElementById("slideWrap");
+var count = 1;
+var items = slideList.querySelectorAll("li").length;
+var prev = document.getElementById("prev");
+var next = document.getElementById("next");
+
+window.addEventListener('resize', function() {
+  sliderWidth = slider.offsetWidth;
+});
+
+var prevSlide = function() {
+  if(count > 1) {
+    count = count - 2;
+    slideList.style.left = "-" + count * sliderWidth + "px";
+    count++;
+  }
+  else if(count = 1) {
+    count = items - 1;
+    slideList.style.left = "-" + count * sliderWidth + "px";
+    count++;
+  }
+};
+
+var nextSlide = function() {
+  if(count < items) {
+    slideList.style.left = "-" + count * sliderWidth + "px";
+    count++;
+  }
+  else if(count = items) {
+    slideList.style.left = "0px";
+    count = 1;
+  }
+};
+
+next.addEventListener("click", function() {
+  nextSlide();
+});
+
+prev.addEventListener("click", function() {
+  prevSlide();
+});
+
+setInterval(function() {
+  nextSlide()
+}, 5000);
+
+};
+
+window.onload = function() {
+responsiveSlider();
+}
+
+
+  </script>
+   <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const links = document.querySelectorAll('ul li a');
+      links.forEach(link => {
+        link.addEventListener('click', function(event) {
+          event.preventDefault();
+          const targetId = this.getAttribute('href').substring(1);
+          const targetSection = document.getElementById(targetId);
+          if (targetSection) {
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      });
+    });
+  </script>
+  </body>
+</html>
